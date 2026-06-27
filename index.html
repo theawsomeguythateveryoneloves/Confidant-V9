@@ -527,7 +527,7 @@
   </div>
 
   <script>
-    var API_KEY = 'YOUR_ANTHROPIC_API_KEY';
+    var API_KEY = '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';
 
     let history = [];
     let traits = [];
@@ -656,7 +656,7 @@ Only output your natural response, followed by the TRAITS line at the very end. 
 
     // Anthropic API Call
     async function callAnthropic(system, messages, maxTokens) {
-      if (API_KEY === 'YOUR_API_KEY_HERE') {
+      if (API_KEY === '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') {
         throw new Error("Please set your Anthropic API key in the script.");
       }
 
@@ -708,7 +708,7 @@ Only output your natural response, followed by the TRAITS line at the very end. 
         let baseJokeStr = "";
         try {
           const ninjaRes = await fetch('https://api.api-ninjas.com/v1/jokes', {
-            headers: { 'X-Api-Key': 'YOUR_API_NINJAS_KEY' }
+            headers: { 'X-Api-Key': 'h2V9EqMPejxS02luc1VJDnnoobeUgqiIQwh3Bpy6' }
           });
           if (ninjaRes.ok) {
             const ninjaData = await ninjaRes.json();
